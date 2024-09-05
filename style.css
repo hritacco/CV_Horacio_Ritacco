@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eaeff2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container dividido */
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 30%;
+    background-color: #90b3ca;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+/* Información de contacto */
+.contact-info, .skills {
+    margin-top: 20px;
+}
+
+.contact-info h3, .skills h3 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #fff;
+    color: #007acc;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Contenido principal */
+.main-content {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 10px 0;
+}
+
+/* Títulos principales */
+h1, h2 {
+    color: #007acc;
+}
+
+h3 {
+    color: #555;
+}
+.project {
+    margin-bottom: 20px;
+}
+.project h3 {
+    margin: 0;
+    color: #007acc;
+    font-size: 1.2em;
+}
+
+.project p {
+    margin: 5px 0;
+    color: #555;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333; /* Color de la línea */
+    margin: 20px 0; /* Espaciado alrededor de la línea */
+}
